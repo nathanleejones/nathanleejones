@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal branding site for Nathan Lee Jones — designer, developer, and storyteller."
+    />
+    <title>Nathan Lee Jones — Designer & Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="nav__brand" href="#top">Nathan Lee Jones</a>
+        <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M4 6h16M4 12h16M4 18h16"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+        <div class="nav__links" id="nav-menu">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero__badge">Available for select collaborations</div>
+        <h1 class="hero__title">
+          I design and build thoughtful digital experiences that help people
+          feel confident using technology.
+        </h1>
+        <p class="hero__subtitle">
+          I'm Nathan, a multidisciplinary designer and front-end developer who
+          pairs strategic thinking with craft. Over the last decade I've helped
+          startups and global brands turn complex problems into elegant,
+          human-centered products.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#portfolio">View my work</a>
+          <a class="btn btn--ghost" href="#contact">Let's talk</a>
+        </div>
+        <ul class="hero__meta" aria-label="Key facts">
+          <li>
+            <span class="label">Location</span>
+            <span class="value">Melbourne, Australia</span>
+          </li>
+          <li>
+            <span class="label">Role</span>
+            <span class="value">Product Designer & Front-End Developer</span>
+          </li>
+          <li>
+            <span class="label">Focus</span>
+            <span class="value">Design systems, SaaS, storytelling</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section section--alt" id="about">
+        <div class="section__heading">
+          <h2>About</h2>
+          <p>A balance of empathy, systems thinking, and delightful details.</p>
+        </div>
+        <div class="about__grid">
+          <p>
+            I believe the best products blend clarity with personality. My
+            approach combines research, storytelling, and iterative prototyping
+            to uncover insight and transform it into intuitive, inclusive
+            experiences.
+          </p>
+          <p>
+            When I'm not in Figma or VS Code, you'll find me photographing city
+            textures, recording music, or mentoring emerging designers through
+            community programs.
+          </p>
+          <dl class="about__details">
+            <div>
+              <dt>Tools of choice</dt>
+              <dd>Figma, Webflow, VS Code, Notion, Adobe CC</dd>
+            </div>
+            <div>
+              <dt>Currently learning</dt>
+              <dd>Creative coding with WebGL and AI-assisted workflows</dd>
+            </div>
+            <div>
+              <dt>Values</dt>
+              <dd>Curiosity, generosity, intentionality, play</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section__heading">
+          <h2>Experience</h2>
+          <p>Highlights from a decade of designing for impact.</p>
+        </div>
+        <div class="experience__timeline">
+          <article class="timeline-card">
+            <h3>Principal Product Designer · Current</h3>
+            <p class="timeline-card__meta">Freelance · 2022 — Present</p>
+            <p>
+              Partnering with emerging SaaS teams to build product narratives,
+              shape end-to-end experiences, and launch cohesive design systems.
+            </p>
+          </article>
+          <article class="timeline-card">
+            <h3>Design Lead</h3>
+            <p class="timeline-card__meta">Storycraft Labs · 2018 — 2022</p>
+            <p>
+              Led cross-functional teams delivering immersive digital platforms
+              for entertainment brands, driving a 40% lift in user retention.
+            </p>
+          </article>
+          <article class="timeline-card">
+            <h3>Senior UX Designer</h3>
+            <p class="timeline-card__meta">Latitude Financial · 2014 — 2018</p>
+            <p>
+              Shipped a suite of human-centered fintech tools across mobile and
+              web, balancing regulatory compliance with joyful storytelling.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="portfolio">
+        <div class="section__heading">
+          <h2>Selected Work</h2>
+          <p>A sampling of projects where strategy meets craft.</p>
+        </div>
+        <div class="portfolio__grid">
+          <article class="portfolio-card">
+            <div class="portfolio-card__tag">Design System</div>
+            <h3>Orbit</h3>
+            <p>
+              Built a modular, accessible design language for a fintech startup,
+              enabling the team to ship features twice as fast.
+            </p>
+            <a class="portfolio-card__link" href="#contact">Explore the case study</a>
+          </article>
+          <article class="portfolio-card">
+            <div class="portfolio-card__tag">Product Strategy</div>
+            <h3>Wayfarer</h3>
+            <p>
+              Reimagined the onboarding experience for a travel platform,
+              increasing activation by 27% through narrative-driven flows.
+            </p>
+            <a class="portfolio-card__link" href="#contact">Explore the case study</a>
+          </article>
+          <article class="portfolio-card">
+            <div class="portfolio-card__tag">Storytelling</div>
+            <h3>Signals</h3>
+            <p>
+              Crafted an interactive editorial microsite blending motion and
+              data visualization to illuminate climate research.
+            </p>
+            <a class="portfolio-card__link" href="#contact">Explore the case study</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="testimonials">
+        <div class="section__heading">
+          <h2>Notes of Appreciation</h2>
+          <p>Words from collaborators and clients.</p>
+        </div>
+        <div class="testimonials">
+          <figure class="testimonial">
+            <blockquote>
+              “Nathan has a rare ability to translate ambiguity into clarity.
+              Our product roadmap is sharper because of his leadership.”
+            </blockquote>
+            <figcaption>— Mia Chen, VP Product at Storycraft Labs</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>
+              “He makes design systems feel like poetry — deeply intentional,
+              human, and scalable.”
+            </blockquote>
+            <figcaption>— Jordan Patel, Director of Design at Orbit</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="contact">
+        <div class="section__heading">
+          <h2>Let's collaborate</h2>
+          <p>
+            Share a few details about your project and I'll reach out within two
+            business days.
+          </p>
+        </div>
+        <form class="contact-form">
+          <div class="form__group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Doe" />
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="jane@studio.com"
+            />
+          </div>
+          <div class="form__group">
+            <label for="project">Project details</label>
+            <textarea
+              id="project"
+              name="project"
+              rows="4"
+              placeholder="Tell me about what you're building..."
+            ></textarea>
+          </div>
+          <button class="btn btn--primary" type="submit">Send message</button>
+        </form>
+        <div class="contact__meta">
+          <p>
+            Prefer email? Reach me directly at
+            <a href="mailto:hello@nathanleejones.com">hello@nathanleejones.com</a>.
+          </p>
+          <ul class="contact__social" aria-label="Social links">
+            <li><a href="https://dribbble.com" target="_blank" rel="noreferrer">Dribbble</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Nathan Lee Jones. Built with curiosity and care.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
